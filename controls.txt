@@ -1,0 +1,51 @@
+KEYBOARD CONTROLS
+
+LEFT_CTRL  Move LeftBasket Left
+LEFT_ALT   Move LeftBasket Right
+RIGHT_ALT  Move RightBasket Left
+RIGHT_CTRL Move RightBasket Right
+SPACE      Shoot Bullet
+UP         Zoom In
+DOWN       Zoom out
+LEFT       PAN Left
+RIGHT      PAN Right
+A          Cannon Rotate Anti-Clock-wise
+D          Cannon Rotate Clock-wise
+S          Move Cannon Up
+F          Move Cannon Bottom
+Q          quit
+N          Increase Speed of Bricks
+M          Decrease Speed of Bricks
+
+
+MOUSE CONTROLS
+
+SCROLL_UP                  Zoom In
+SCROLL_DOWN                Zoom Out
+RIGHT_BUTTON + MOVE_LEFT   Pan Left
+RIGHT_BUTTON + MOVE_RIGHT  Pan Right
+LEFT_BUTTON  + MOVE_LEFT   Drag LeftBasket/RightBasket/Cannon Left
+LEFT_BUTTON  + MOVE_RIGHT  Drag LeftBasket/RightBasket/Cannon Right
+LEFT_BUTTON                Shoot Bullet/Change Direction of Cannon
+
+FEATURES
+There are 3 static mirrors and a mirror which is moving
+Score is printed at the top-right corner using 7-Segment
+
+RULES
+If Red Ball is collected in the LeftBasket(Red), You will get 10 Points
+If Blue Ball is collected in the LeftBasket(Red), You will get -1 point
+
+If Blue Ball is collected in the RightBasket(Blue), You will get 10 Points
+If Red Ball is collected in the RightBasket(Blue), You will get -1 point
+
+If Black Ball is collected in either of the Baskets, the game is over.
+
+If you shoot black brick, you will get 10 points.
+If you shoot blue brick or red brick, you will get -1 point.
+
+If Score >= 1000
+Game is Over and you win
+
+If Game is Over and Score < 1000
+You Lose
